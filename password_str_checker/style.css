@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.box{
+    background-color: rgb(185, 255, 127);
+    padding: 10px;
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+    border-color: black;
+}
+.passwordChecker{
+    margin: 20px;
+    
+}
+
+.passwordChecker input{
+    padding: 10px;
+}
+
+#password{
+    
+    height: 15px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+#feedback{
+    text-align: center;
+}
+
