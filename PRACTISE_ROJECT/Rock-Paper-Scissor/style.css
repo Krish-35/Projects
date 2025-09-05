@@ -2,37 +2,48 @@
     margin: 0px;
     padding: 0px;
     text-align: center;
-    background-color: rgb(178, 225, 255);
+    background-color: rgb(177, 225, 255);
 }
 
 h1{
     background-color: rgb(0, 38, 121);
-    color: rgb(175, 226, 255);
+    color: rgb(0, 4, 6);
     height: 5rem;
     line-height: 5rem;
+    color: aliceblue;
 }
 
 .choices{
-    height: 200px;
+    height: 30rem;
     display: flex;
     align-items: center;
     justify-content: center; 
-    gap: 20px;
+    gap: 10rem;
 }
 
-#rock{
+#rock {
     background-color: aqua;
 }
-#paper{
+#rock p{
+    background-color: inherit;
+}
+#paper {
     background-color: aquamarine;
 }
+#paper p{
+    background-color: inherit;
+}
+
 #scissor{
     background-color: rgb(186, 138, 231);
 }
+#scissor p{
+    background-color: inherit;
+}
 
 .choice{
-    height: 100px;
-    width: 100px;
+    height: 10rem;
+    width: 10rem;
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -72,4 +83,8 @@ h1{
     display: inline;
     padding: 1rem;
     border-radius: 1rem;
+}
+
+.score p{
+    font-size: 2rem;
 }
