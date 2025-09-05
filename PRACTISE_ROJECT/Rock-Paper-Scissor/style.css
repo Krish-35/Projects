@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: rgb(177, 225, 255);
+}
+
+h1{
+    background-color: rgb(0, 38, 121);
+    color: rgb(0, 4, 6);
+    height: 5rem;
+    line-height: 5rem;
+    color: aliceblue;
+}
+
+.choices{
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10rem;
+}
+
+#rock {
+    background-color: aqua;
+}
+#rock p{
+    background-color: inherit;
+}
+#paper {
+    background-color: aquamarine;
+}
+#paper p{
+    background-color: inherit;
+}
+
+#scissor{
+    background-color: rgb(186, 138, 231);
+}
+#scissor p{
+    background-color: inherit;
+}
+
+.choice{
+    height: 10rem;
+    width: 10rem;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: rgb(15, 15, 15);
+    user-select: none; 
+    border: 3px solid transparent;
+}
+
+.choice:hover{
+    cursor: pointer;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    gap: 3rem;
+}
+
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 4rem;
+}
+#msg{
+    
+    background-color: black;
+    user-select: none; 
+    color: aliceblue;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.score p{
+    font-size: 2rem;
+}
