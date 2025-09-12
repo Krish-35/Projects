@@ -16,5 +16,84 @@ body{
     padding: 1.5rem;
     border-radius: 1rem;
     min-height: 50vh;
-    width: 40vh;
+    width: 50vh;
+}
+
+form {
+    margin: 1rem 0 1rem 0;
+}
+
+.amount p{
+    padding: 0.2rem;
+}
+
+form select,
+input,
+button{
+    width: 100%;
+    border: none; 
+    outline: none; 
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid lightgrey;
+    font-size: 1rem;
+    height: 2.5rem;
+    padding-left: 0.3rem;
+}
+
+.drop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    min-height: 4rem;
+}
+
+.drop i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    
+}
+
+.drop p{
+    padding: 0.2rem;
+}
+
+.select-box img{
+    width: 2rem;
+    height: 2rem;
+    /* object-fit: contain; */
+}
+
+.select-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.75rem;
+    background-color: white;
+    
+}
+
+.select-box select{
+    font-size: 1rem;
+    width: auto;
+}
+
+.msg{
+    font-size: 30px;
+    display: flex;
+    margin: 2rem 0 2rem 0;
+    justify-content: center;
+}
+
+form button{
+    height: 3rem;
+    background-color: rgb(127, 21, 132);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
 }
