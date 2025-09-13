@@ -84,7 +84,7 @@ form input{
 }
 
 .msg{
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     margin: 2rem 0 2rem 0;
     justify-content: center;
@@ -97,3 +97,4 @@ form button{
     font-size: 1rem;
     cursor: pointer;
 }
+
