@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(0, 118, 191);
+}
+
+.watch-container{
+    display: flex;
+    background-color: rgb(12, 6, 119);
+    justify-content: center;
+    padding: 5vh;
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 40px;
+    width: 30%;        
+    margin:10vh auto 0 auto;     */
+
+    width: 400px;        /* fixed width */
+    margin: 20px auto; 
+}
+
+.display {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 40px 0 60px; /* spacing between display and buttons */
+    color: #cfcfcf;
+    
+    width: 250px;         /* same width */
+    height: 250px;        /* same height */
+    background: #000000;  /* blue fill color */
+    border-radius: 50%;   /* makes it a circle */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.btns button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #dddee0;
+    color: rgb(18, 15, 15);
+    transition: background 0.3s ease;
+}
+
+.btns button:hover {
+    background: #69a4d8;
+}
